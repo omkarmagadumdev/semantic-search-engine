@@ -1,0 +1,22 @@
+export const demoVectors = [
+  { meta: 'Linked List: nodes connected by pointers', cat: 'cs', emb: [0.90, 0.85, 0.72, 0.68, 0.12, 0.08, 0.15, 0.10, 0.05, 0.08, 0.06, 0.09, 0.07, 0.11, 0.08, 0.06] },
+  { meta: 'Binary Search Tree: O(log n) search and insert', cat: 'cs', emb: [0.88, 0.82, 0.78, 0.74, 0.15, 0.10, 0.08, 0.12, 0.06, 0.07, 0.08, 0.05, 0.09, 0.06, 0.07, 0.10] },
+  { meta: 'Dynamic Programming: memoization overlapping subproblems', cat: 'cs', emb: [0.82, 0.76, 0.88, 0.80, 0.20, 0.18, 0.12, 0.09, 0.07, 0.06, 0.08, 0.07, 0.08, 0.09, 0.06, 0.07] },
+  { meta: 'Graph BFS and DFS: breadth and depth first traversal', cat: 'cs', emb: [0.85, 0.80, 0.75, 0.82, 0.18, 0.14, 0.10, 0.08, 0.06, 0.09, 0.07, 0.06, 0.10, 0.08, 0.09, 0.07] },
+  { meta: 'Hash Table: O(1) lookup with collision chaining', cat: 'cs', emb: [0.87, 0.78, 0.70, 0.76, 0.13, 0.11, 0.09, 0.14, 0.08, 0.07, 0.06, 0.08, 0.07, 0.10, 0.08, 0.09] },
+  { meta: 'Calculus: derivatives integrals and limits', cat: 'math', emb: [0.12, 0.15, 0.18, 0.10, 0.91, 0.86, 0.78, 0.72, 0.08, 0.06, 0.07, 0.09, 0.07, 0.08, 0.06, 0.10] },
+  { meta: 'Linear Algebra: matrices eigenvalues eigenvectors', cat: 'math', emb: [0.20, 0.18, 0.15, 0.12, 0.88, 0.90, 0.82, 0.76, 0.09, 0.07, 0.08, 0.06, 0.10, 0.07, 0.08, 0.09] },
+  { meta: 'Probability: distributions random variables Bayes theorem', cat: 'math', emb: [0.15, 0.12, 0.20, 0.18, 0.84, 0.80, 0.88, 0.82, 0.07, 0.08, 0.06, 0.10, 0.09, 0.06, 0.09, 0.08] },
+  { meta: 'Number Theory: primes modular arithmetic RSA cryptography', cat: 'math', emb: [0.22, 0.16, 0.14, 0.20, 0.80, 0.85, 0.76, 0.90, 0.08, 0.09, 0.07, 0.06, 0.08, 0.10, 0.07, 0.06] },
+  { meta: 'Combinatorics: permutations combinations generating functions', cat: 'math', emb: [0.18, 0.20, 0.16, 0.14, 0.86, 0.78, 0.84, 0.80, 0.06, 0.07, 0.09, 0.08, 0.06, 0.09, 0.10, 0.07] },
+  { meta: 'Neapolitan Pizza: wood-fired dough San Marzano tomatoes', cat: 'food', emb: [0.08, 0.06, 0.09, 0.07, 0.07, 0.08, 0.06, 0.09, 0.90, 0.86, 0.78, 0.72, 0.08, 0.06, 0.09, 0.07] },
+  { meta: 'Sushi: vinegared rice raw fish and nori rolls', cat: 'food', emb: [0.06, 0.08, 0.07, 0.09, 0.09, 0.06, 0.08, 0.07, 0.86, 0.90, 0.82, 0.76, 0.07, 0.09, 0.06, 0.08] },
+  { meta: 'Ramen: noodle soup with chashu pork and soft-boiled eggs', cat: 'food', emb: [0.09, 0.07, 0.06, 0.08, 0.08, 0.09, 0.07, 0.06, 0.82, 0.78, 0.90, 0.84, 0.09, 0.07, 0.08, 0.06] },
+  { meta: 'Tacos: corn tortillas with carnitas salsa and cilantro', cat: 'food', emb: [0.07, 0.09, 0.08, 0.06, 0.06, 0.07, 0.09, 0.08, 0.78, 0.82, 0.86, 0.90, 0.06, 0.08, 0.07, 0.09] },
+  { meta: 'Croissant: laminated pastry with buttery flaky layers', cat: 'food', emb: [0.06, 0.07, 0.10, 0.09, 0.10, 0.06, 0.07, 0.10, 0.85, 0.80, 0.76, 0.82, 0.09, 0.07, 0.10, 0.06] },
+  { meta: 'Basketball: fast-paced shooting dribbling slam dunks', cat: 'sports', emb: [0.09, 0.07, 0.08, 0.10, 0.08, 0.09, 0.07, 0.06, 0.08, 0.07, 0.09, 0.06, 0.91, 0.85, 0.78, 0.72] },
+  { meta: 'Football: tackles touchdowns field goals and strategy', cat: 'sports', emb: [0.07, 0.09, 0.06, 0.08, 0.09, 0.07, 0.10, 0.08, 0.07, 0.09, 0.08, 0.07, 0.87, 0.89, 0.82, 0.76] },
+  { meta: 'Tennis: racket volleys groundstrokes and Wimbledon serves', cat: 'sports', emb: [0.08, 0.06, 0.09, 0.07, 0.07, 0.08, 0.06, 0.09, 0.09, 0.06, 0.07, 0.08, 0.83, 0.80, 0.88, 0.82] },
+  { meta: 'Chess: openings endgames tactics strategic board game', cat: 'sports', emb: [0.25, 0.20, 0.22, 0.18, 0.22, 0.18, 0.20, 0.15, 0.06, 0.08, 0.07, 0.09, 0.80, 0.84, 0.78, 0.90] },
+  { meta: 'Swimming: butterfly freestyle backstroke Olympic competition', cat: 'sports', emb: [0.06, 0.08, 0.07, 0.09, 0.08, 0.06, 0.09, 0.07, 0.10, 0.08, 0.06, 0.07, 0.85, 0.82, 0.86, 0.80] }
+];
